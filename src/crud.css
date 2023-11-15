@@ -1,0 +1,132 @@
+    /* Add your CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      background-image: url('violetbg.jpg');
+  background-attachment: fixed;
+  }
+
+  header {
+      background-color: #007bff;
+      color: rgb(24, 125, 255);
+      text-align: center;
+      padding: 20px 0;
+  }
+
+  h1 {
+      font-size: 24px;
+      text-align: center;
+  }
+
+  .mainWrapper {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  #makeupInput {
+      padding: 10px;
+      width: 60%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+  }
+
+  /* Style the "Add Word" button */
+  #btnCreate {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+  }
+
+  #makeupList {
+      margin-top: 20px;
+  }
+
+  /* Style the word items in the list */
+  li {
+      list-style-type: none;
+      background-color: white;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between; /* Align items to the right */
+      align-items: center;
+      margin-right: 10px; /* Add space between the buttons */
+  }
+
+  /* Style the "Update" and "Delete" buttons */
+  button {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style the "Delete" button */
+button.delete {
+  background-color: #dc3545;
+  margin-left: auto; /* Push the "Delete" button to the right */
+}
+
+/* Style the "Update" button */
+button.update {
+  background-color: #28a745;
+  margin-left: 5px; /   
+}
+
+  /* Add other styles as needed */
+  .word-list {
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      max-width: 800px;
+      margin: 0 auto;
+  }
+
+  .word-items {
+      padding: 0;
+  }
+
+  nav {
+      text-align: center;
+      margin: 20px;
+  }
+
+  nav a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+  }
+
+  nav a:hover {
+      background-color: #0056b3;
+  }
+
+  h2 {
+      text-align: center;
+  }
